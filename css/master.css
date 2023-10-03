@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family:monospace;
+}
+/*
+.productos-en-venta{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.encabezado{
+    width: 100%;
+    /*height: auto/*25vh*/;
+    opacity: 1;
+    background-color: #e3f2fd;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.imagenLogo{
+    width: 10%;
+}
+
+.opciones a:hover{
+    color: rgb(231,13,21);
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.opciones li a{
+    /*font-size: 1.3rem;*/
+    color: black;
+    opacity: 1;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.opcion{
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+
+.boton-buscar{
+    padding: 5px;
+    margin: 0;
+}
+
+.subtitulo{
+    display: flex;
+    /*font-size: 2rem;*/
+    color: whitesmoke;
+    background-color: teal;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 40%;
+    /*color:rgb(231,13,21) #E70D15*/;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(25, 66, 66); /*lightslategray*/
+    /*font-family: 1.2rem;*/
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+#pago{
+    color: whitesmoke;
+    padding-top:5px;
+    /*font-size: 1.5rem;*/
+}
+
+.medios-pago-envio{
+    padding-top:5px; 
+    /*font-size: 1.5rem;*/
+}
+
+/*.iconos-pago-envio{
+    display: grid; 
+    grid-template-columns: repeat(4,1fr);
+}*/
+
+.icon-pago-envio{
+    padding:10px;
+}
+
+.contacto{
+    /*font-size: 1.2rem;*/
+    color: whitesmoke;
+}
+
+.redes-sociales{
+    color: whitesmoke;
+    /*font-size: 2rem;*/
+}
+
+.iconos-redes{
+    display: flex;
+    /*padding: 5px;*/
+}
+
+.pie{
+    padding-top: 10px;
+    /*font-size: 1.5rem;*/
+    color: whitesmoke;
+}
+
+#derechos{
+    color: whitesmoke;
+    width: 100%;
+}
+
+
+
+
+@media (min-width: 320px){    
+    body{
+        font-size: 0.8rem;
+    }
+
+    ul li a{
+        font-size:0.8rem;
+    }
+
+    .encabezado{
+        font-size: 0.8rem;
+    }
+
+    .opciones{
+        display: flex;
+        justify-content: space-between;
+        text-align:center;
+        font-size:1.5vh;
+    }
+
+/*
+    .container-fluid{
+        margin-top: 180px; /*para que toda la pag baje y se vea el menu completo
+    }*/
+
+    .noEncabezado{
+        margin-top: 8rem; /*para que toda la pag baje y se vea el menu completo*/
+    }
+
+    .subtitulo{
+        font-size: 1vh;
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+        top: 100px;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .medios-pago-envio{
+        font-size: 1rem;
+        color: whitesmoke;
+    }
+    
+    .iconos-pago-envio{
+        display: grid;
+        grid-template-columns: repeat(4,0.6fr);
+    }
+    
+    .contacto{
+        font-size: 0.7rem;
+    }
+    
+    .redes-sociales{
+        font-size: 1rem;
+    }
+    
+    .iconos-redes{
+        padding: 2px;
+    }
+    
+    .pie{
+        font-size: 1rem;
+    }
+    
+    #derechos{
+        font-size: 0.6rem;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px){
+
+
+
+
+
+
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        }
+    
+    /*#pago{
+        font-size: 1rem; 
+    }*/
+    
+    .medios-pago-envio{
+            font-size: 1.3rem;
+    }
+    
+    .iconos-pago-envio{
+        display: grid;
+        grid-template-columns: repeat(4,0.7fr);
+    }
+    
+    .contacto{
+        font-size: 1.1rem;
+    }
+    
+    .redes-sociales{
+        font-size: 1.5rem;
+    }
+    
+    .iconos-redes{
+        padding: 5px;
+    }
+    
+    .pie{
+        font-size: 1.3rem;
+    }
+    
+    #derechos{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+    body{
+        font-size: 1rem;
+    }
+
+    ul li a{
+        font-size:1.3rem;
+    }
+    
+    .encabezado{
+        margin: 0;
+        /*height: 25vh;*/
+    }
+
+    .opciones{
+        display: flex;
+        justify-content: space-between;
+        text-align:center;
+        font-size:2.5vh;
+    }
+
+    .noEncabezado{
+        margin-top: 180px; /*para que toda la pag baje y se vea el menu completo*/
+    }
+
+    .subtitulo{
+        font-size: 2rem;
+        width: 40%;
+        padding: 7px;
+        top: 100px;
+    }
+
+    .medios-pago-envio{
+        font-size: 1.5rem;
+    }
+
+    .iconos-pago-envio{
+        display: grid;
+        grid-template-columns: repeat(4,0.8fr);
+    }
+
+    .contacto{
+        font-size: 1.2rem;
+    }
+
+    .redes-sociales{
+        font-size: 2rem;
+    }
+
+    .pie{
+        font-size: 1.5rem;
+    }
+
+    #derechos{
+        font-size: 1rem;
+    }
+  }
