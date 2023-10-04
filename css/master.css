@@ -6,9 +6,6 @@
 
 body{
     position: relative;
-    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
-    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
     font-family:monospace;
 }
 /*
@@ -60,7 +57,6 @@ a{
 
 .opcion{
     font-family: monospace;
-    font-size: 1.3rem;
 }
 
 .boton-buscar{
@@ -164,10 +160,9 @@ footer{
         font-size:1.5vh;
     }
 
-/*
-    .container-fluid{
-        margin-top: 180px; /*para que toda la pag baje y se vea el menu completo
-    }*/
+    .opcion{
+        font-size: 0.9rem;
+    }
 
     .noEncabezado{
         margin-top: 8rem; /*para que toda la pag baje y se vea el menu completo*/
@@ -222,21 +217,14 @@ footer{
 
 
 @media (min-width: 768px){
-
-
-
-
-
-
+    .opcion{
+        font-size: 1.1rem;
+    }
 
     footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         }
-    
-    /*#pago{
-        font-size: 1rem; 
-    }*/
     
     .medios-pago-envio{
             font-size: 1.3rem;
@@ -294,6 +282,11 @@ footer{
         justify-content: space-between;
         text-align:center;
         font-size:2.5vh;
+    }
+
+    .opcion{
+        font-family: monospace;
+        font-size: 1.3rem;
     }
 
     .noEncabezado{
