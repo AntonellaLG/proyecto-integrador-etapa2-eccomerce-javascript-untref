@@ -72,6 +72,10 @@ img{
     object-fit: cover;
 }
 
+#tarjetas{
+    display: grid;
+}
+
 footer{
     width: 100%;
     justify-content: space-around;
@@ -156,6 +160,14 @@ footer{
         top: 100px;
     }
 
+    #tarjetas{
+        grid-template-columns: repeat(1,3fr);
+    }
+
+    .card-titulo{
+        font-size: 1.2rem;  
+    }
+
     footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -199,6 +211,14 @@ footer{
 @media (min-width: 768px){
     .opcion{
         font-size: 1.1rem;
+    }
+
+    #tarjetas{
+        grid-template-columns: repeat(2,3fr);
+    }
+
+    .card-titulo{
+        font-size: 1.4rem;
     }
 
     footer{
@@ -274,6 +294,14 @@ footer{
         width: 40%;
         padding: 7px;
         top: 100px;
+    }
+
+    #tarjetas{
+        grid-template-columns: repeat(4,3fr);
+    }
+
+    .card-titulo{
+        font-size: 1.4rem;
     }
 
     .medios-pago-envio{
