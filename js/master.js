@@ -21,7 +21,7 @@ fetch('../datos/productos.json')
                 <h2 class="card-titulo">${producto.titulo}</h2>
                 <h6 class="card-detalle">${producto.detalle}</h6>
                 <h6 class="card-precio">${producto.precio}</h6>
-                <a class="btn btn-primary boton-ver-mas" id="${producto.codigo}" href="./detalleProducto.html?codigo=${producto.codigo}" style="background-color:whitesmoke; border-color:teal; color:teal;">Ver más</a>
+                <a class="btn btn-primary boton-ver-mas" id="${producto.codigo}" href="./detalleProducto.html?codigo=${producto.codigo}" style="background-color:teal; border-color:teal; color:whitesmoke;">Ver más</a>
             </div>
         </div>
         `
