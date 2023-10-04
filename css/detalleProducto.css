@@ -6,16 +6,8 @@
 
 body{
     position: relative;
-    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
-    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
     font-family:monospace;
 }
-/*
-.productos-en-venta{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}*/
 
 html{
     scroll-behavior: smooth;
@@ -31,7 +23,6 @@ a{
 
 .encabezado{
     width: 100%;
-    /*height: auto/*25vh*/;
     opacity: 1;
     background-color: #e3f2fd;
     top: 0;
@@ -51,7 +42,6 @@ a{
 }
 
 .opciones li a{
-    /*font-size: 1.3rem;*/
     color: black;
     opacity: 1;
     padding: 18px;
@@ -68,19 +58,14 @@ a{
     margin: 0;
 }
 
-/*.subtitulo{
-    display: flex;
-    color: whitesmoke;
-    background-color: teal;
-    padding: 10px;
-    margin-bottom: 25px;
-    width: 40%;
-}*/
-
 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .boton-volver{
@@ -112,7 +97,6 @@ footer{
     width: 100%;
     justify-content: space-around;
     background-color: rgb(25, 66, 66); /*lightslategray*/
-    /*font-family: 1.2rem;*/
     text-align: center;
     padding: 5px;
     margin-top: 30px;
@@ -121,25 +105,17 @@ footer{
 #pago{
     color: whitesmoke;
     padding-top:5px;
-    /*font-size: 1.5rem;*/
 }
 
 .medios-pago-envio{
     padding-top:5px; 
-    /*font-size: 1.5rem;*/
 }
-
-/*.iconos-pago-envio{
-    display: grid; 
-    grid-template-columns: repeat(4,1fr);
-}*/
 
 .icon-pago-envio{
     padding:10px;
 }
 
 .contacto{
-    /*font-size: 1.2rem;*/
     color: whitesmoke;
 }
 
@@ -150,12 +126,10 @@ footer{
 
 .iconos-redes{
     display: flex;
-    /*padding: 5px;*/
 }
 
 .pie{
     padding-top: 10px;
-    /*font-size: 1.5rem;*/
     color: whitesmoke;
 }
 
@@ -163,6 +137,7 @@ footer{
     color: whitesmoke;
     width: 100%;
 }
+
 
 
 
@@ -186,11 +161,6 @@ footer{
         text-align:center;
         font-size:1.5vh;
     }
-
-/*
-    .container-fluid{
-        margin-top: 180px; /*para que toda la pag baje y se vea el menu completo
-    }*/
 
     .noEncabezado{
         margin-top: 8rem; /*para que toda la pag baje y se vea el menu completo*/
@@ -245,21 +215,10 @@ footer{
 
 
 @media (min-width: 768px){
-
-
-
-
-
-
-
     footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        }
-    
-    /*#pago{
-        font-size: 1rem; 
-    }*/
+    }
     
     .medios-pago-envio{
             font-size: 1.3rem;
@@ -295,9 +254,6 @@ footer{
 
 
 
-
-
-
 @media (min-width: 1200px){
     body{
         font-size: 1rem;
@@ -309,7 +265,6 @@ footer{
     
     .encabezado{
         margin: 0;
-        /*height: 25vh;*/
     }
 
     .opciones{
