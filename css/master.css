@@ -9,11 +9,6 @@ body{
     font-family:monospace;
 }
 
-.productos-en-venta{
-    display: grid;
-    /*grid-template-columns: repeat(3,1fr);*/
-}
-
 html{
     scroll-behavior: smooth;
 }
@@ -28,7 +23,6 @@ a{
 
 .encabezado{
     width: 100%;
-    /*height: auto/*25vh*/;
     opacity: 1;
     background-color: #e3f2fd;
     top: 0;
@@ -48,7 +42,6 @@ a{
 }
 
 .opciones li a{
-    /*font-size: 1.3rem;*/
     color: black;
     opacity: 1;
     padding: 18px;
@@ -66,13 +59,11 @@ a{
 
 .subtitulo{
     display: flex;
-    /*font-size: 2rem;*/
     color: whitesmoke;
     background-color: teal;
     padding: 10px;
     margin-bottom: 25px;
     width: 40%;
-    /*color:rgb(231,13,21) #E70D15*/;
 }
 
 img{
@@ -85,7 +76,6 @@ footer{
     width: 100%;
     justify-content: space-around;
     background-color: rgb(25, 66, 66); /*lightslategray*/
-    /*font-family: 1.2rem;*/
     text-align: center;
     padding: 5px;
     margin-top: 30px;
@@ -94,41 +84,30 @@ footer{
 #pago{
     color: whitesmoke;
     padding-top:5px;
-    /*font-size: 1.5rem;*/
 }
 
 .medios-pago-envio{
     padding-top:5px; 
-    /*font-size: 1.5rem;*/
 }
-
-/*.iconos-pago-envio{
-    display: grid; 
-    grid-template-columns: repeat(4,1fr);
-}*/
 
 .icon-pago-envio{
     padding:10px;
 }
 
 .contacto{
-    /*font-size: 1.2rem;*/
     color: whitesmoke;
 }
 
 .redes-sociales{
     color: whitesmoke;
-    /*font-size: 2rem;*/
 }
 
 .iconos-redes{
     display: flex;
-    /*padding: 5px;*/
 }
 
 .pie{
     padding-top: 10px;
-    /*font-size: 1.5rem;*/
     color: whitesmoke;
 }
 
@@ -136,6 +115,7 @@ footer{
     color: whitesmoke;
     width: 100%;
 }
+
 
 
 
@@ -260,9 +240,6 @@ footer{
 
 
 
-
-
-
 @media (min-width: 1200px){
     body{
         font-size: 1rem;
@@ -274,7 +251,6 @@ footer{
     
     .encabezado{
         margin: 0;
-        /*height: 25vh;*/
     }
 
     .opciones{
@@ -298,10 +274,6 @@ footer{
         width: 40%;
         padding: 7px;
         top: 100px;
-    }
-
-    #tarjetas{
-        grid-template-columns: repeat(4,3fr);
     }
 
     .medios-pago-envio{
