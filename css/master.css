@@ -161,7 +161,7 @@ footer{
     }
 
     #tarjetas{
-        grid-template-columns: repeat(1,3fr);
+        grid-template-columns: repeat(2,3fr);
     }
 
     .card-titulo{
