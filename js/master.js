@@ -14,8 +14,9 @@ fetch('../datos/productos.json')
     productos.forEach(producto => {
         //Varío contenido de un elemento capturado en js
         //class="w-100" en img va a ser el 100 del tamaño de su caja
+        // col-12 col-md-6 col-lg-10
         tarjetas.innerHTML += ` 
-        <div class="card text-center col-12 col-md-6 col-lg-10" style="margin:10px; ">
+        <div class="card text-center" style="margin:10px; ">
             <img src="${producto.imagen}" class="w-100 card-img-top" alt="${producto.titulo}">
             <div class="card-body">
                 <h2 class="card-title" style="font-size:1.3rem;">${producto.titulo}</h2>
@@ -49,8 +50,8 @@ fetch('../datos/productos.json')
 
 
 
-tarjetas.style.display = 'grid';
-tarjetas.style.gridTemplateColumns = 'repeat(4,3fr)';
+//tarjetas.style.display = 'grid';
+//tarjetas.style.gridTemplateColumns = 'repeat(4,3fr)';
 
 
 

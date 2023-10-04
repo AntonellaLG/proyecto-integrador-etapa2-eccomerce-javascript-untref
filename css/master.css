@@ -8,11 +8,11 @@ body{
     position: relative;
     font-family:monospace;
 }
-/*
+
 .productos-en-venta{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-}*/
+    /*grid-template-columns: repeat(3,1fr);*/
+}
 
 html{
     scroll-behavior: smooth;
@@ -298,6 +298,10 @@ footer{
         width: 40%;
         padding: 7px;
         top: 100px;
+    }
+
+    #tarjetas{
+        grid-template-columns: repeat(4,3fr);
     }
 
     .medios-pago-envio{
