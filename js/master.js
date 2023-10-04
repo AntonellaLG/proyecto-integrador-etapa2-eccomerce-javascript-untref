@@ -48,9 +48,4 @@ fetch('../datos/productos.json')
 })
 
 
-
-//tarjetas.style.display = 'grid';
-//tarjetas.style.gridTemplateColumns = 'repeat(4,3fr)';
-
-
 //Idea: Guardar los datos del producto que corresponda en el localStorage según el boton VerMas seleccionado (dependiendo del id del botón). Desde el localStorage, copiar en el body de detalleProducto.html la informacion necesaria (para hacer esto pasarlo a objeto literal antes). Programar los botones verMas de modo que si los selecciono, vacío el localStorage de la info previa para guardar un nuevo producto
