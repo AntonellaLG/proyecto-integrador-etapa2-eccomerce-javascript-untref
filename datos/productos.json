@@ -21,7 +21,7 @@
         "descripcionProducto": "Figura hecha en impresión 3D pintada a mano con excelente terminación y calidad. Largo 18 cm, ancho 3 cm, con profundidad de 3 cm. La edad mínima recomendada: 6 años.",
         "unidades": 1,
         "disponibles": 25,
-        "precio": "$3000",
+        "precio": "$2300",
         "descuento": "10% de descuento pagando por transferencia bancaria ó efectivo.",
         "cantidadVendidos": 284
     },
@@ -73,7 +73,7 @@
         "descripcionProducto": "Detergente Mister Chispa, de origen japonés. Contiene 800 gr.",
         "unidades": 1,
         "disponibles": 20,
-        "precio": "$5000",
+        "precio": "$4000",
         "descuento": "20% de descuento pagando por transferencia bancaria ó efectivo.",
         "cantidadVendidos": 901
     },
@@ -99,7 +99,7 @@
         "descripcionProducto": "Este producto es exclusivo de nuestra tienda, no lo encontrarás en otro lugar. Papel original, en perfecto estado, en donde Bart Simpson entrega escrita su alma.",
         "unidades": 1,
         "disponibles": 1,
-        "precio": "$...",
+        "precio": "$10000",
         "descuento": "No hay descuentos para este producto.",
         "cantidadVendidos": 0
     }
