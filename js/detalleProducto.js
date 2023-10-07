@@ -61,4 +61,10 @@ window.addEventListener('load', function(){
   </div>
     `;
 
+
+  let botonVolver = this.document.getElementById('boton-volver');
+  botonVolver.addEventListener('click', function(){
+    localStorage.clear()
+    location.href = 'index.html'
+  })
 })
